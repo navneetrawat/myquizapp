@@ -1,0 +1,180 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #4b2079;
+            font-family: 'Pattaya', sans-serif;
+            color: white;
+        }
+        
+        .first-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 96vh;
+            width: 100%;
+        }
+        
+        .heading-1 {
+            font-size: 5rem;
+        }
+        
+        .button-1 {
+            font-size: 2.5rem;
+            border-radius: 15px;
+            padding: 5px 45px 5px 45px;
+            background: #19b8e6;
+            border: none;
+            margin-top: 15px;
+        }
+        
+        .second-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 78vh;
+            width: 100%;
+        }
+        
+        .get-ready {
+            margin-bottom: 15%;
+        }
+        
+        .heading-2 {
+            font-size: 5rem;
+        }
+        
+        .first {
+            font-size: 4rem;
+            margin-left: 48%;
+        }
+        
+        .third-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        
+        .icon-1 {
+            color: gold;
+            font-size: 25px;
+            margin-right: 5px;
+        }
+        
+        .game-begin {
+            font-size: 25px;
+        }
+        
+        .quiz-icon {
+            margin-bottom: 15px;
+        }
+        
+        .circle {
+            border: 5px solid rgb(224, 222, 222);
+            border-top: 5px solid rgb(247, 90, 90);
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            z-index: 86;
+            margin-top: 5px;
+            position: absolute;
+            right: 41.8%;
+        }
+        
+        .time {
+            position: absolute;
+            top: 11.2rem;
+            left: 43rem;
+            font-size: 1.5rem
+        }
+        
+        .question-container {
+            margin-top: 18%;
+            margin-bottom: 10px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .options-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            margin-top: 5px;
+        }
+        
+        .opt-btn {
+            font-size: 25px;
+            padding: 0px 9rem 0px 9rem;
+            margin: 5px;
+            background: #6eabf0;
+            color: white;
+            border-radius: 10px;
+            font-family: 'Roboto', sans-serif;
+            border: none;
+        }
+        
+        .opt-btn:hover {
+            background: #1871d6;
+        }
+        
+        .opt-btn:focus {
+            outline: 0;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .result-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .loser {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 1;
+            top: 120px;
+        }
+        
+        .winner {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 2;
+            top: 120px;
+        }
+        
+        .icon-2 {
+            font-size: 10rem;
+            color: gold;
+        }
+        
+        .head-1,
+        .head-2 {
+            font-size: 3.2rem;
+            margin-top: 20px;
+        }
+        
+        .para-1 {
+            margin-top: 23rem;
+            font-size: 25px;
+            color: rgb(246, 45, 45);
+        }
+        
+        .para-2 {
+            margin-top: 23rem;
+            font-size: 25px;
+            color: rgb(19, 190, 19);
+        }
